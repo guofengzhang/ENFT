@@ -4,7 +4,8 @@ ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a feature t
 
 ###Related Publications:
 
-Guofeng Zhang, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao. **Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion**. *IEEE Transactions on Image Processing*, accepted. [**[arXiv report](http://arxiv.org/abs/1510.08012)**][**[video](http://www.cad.zju.edu.cn/home/gfzhang/projects/tracking/featuretracking/ENFT-video.wmv)**]
+[1] Guofeng Zhang, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao. **Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion**. *IEEE Transactions on Image Processing*, accepted. DOI: 10.1109/TIP.2016.2607425. [**[arXiv report](http://arxiv.org/abs/1510.08012)**][**[video](http://www.cad.zju.edu.cn/home/gfzhang/projects/tracking/featuretracking/ENFT-video.wmv)**]
+[2] Guofeng Zhang, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao. Efficient Non-Consecutive Feature Tracking for Structure-from-Motion. European Conference on Computer Vision (ECCV), 2010.
 
 This source code only provides feature tracking. The whole executable SfM system can be found at http://www.zjucvg.net/ls-acts/ls-acts.html.
 
@@ -12,15 +13,7 @@ This source code only provides feature tracking. The whole executable SfM system
 
 ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-3.0/). If you need a closed-source version of ENFT for commercial purposes, please contact [Guofeng Zhang](mailto:zhangguofeng@cad.zju.edu.cn).
 
-If you use this source code for your academic publication, please cite our TIP paper: 
-
-@article{ZhangLDJWB2016,
-  title={Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion},
-  author={Guofeng Zhang, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, Hujun Bao},
-  journal={IEEE Transactions on Image Processing},
-  doi = {10.1109/TIP.2016.2607425},
-  year={2016}
- }
+If you use this source code for your academic publication, please cite our TIP paper.
 
 ##2. Dependencies
 
