@@ -1,6 +1,6 @@
 # ENFT
 
-ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a feature tracking method which can efficiently match feature point correspondences among one or multiple video sequences. Our framework consists of steps of solving the feature ‘dropout’ problem when indistinctive structures, noise or even large image distortion exist, and of rapidly recognizing and joining common features located in different subsequences or even in different videos. We provide our GPU implementation.
+ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a feature tracking method which can efficiently match feature point correspondences among one or multiple video sequences. Our framework consists of steps of solving the feature ‘dropout’ problem when indistinctive structures, noise or even large image distortion exist, and of rapidly recognizing and joining common features located in different subsequences or even in different videos. We provide an efficient GPU implementation.
 
 ###Related Publications:
 
@@ -8,14 +8,22 @@ ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a feature t
 
 [2] Guofeng Zhang, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, and Hujun Bao. **Efficient Non-Consecutive Feature Tracking for Structure-from-Motion**. European Conference on Computer Vision (ECCV), 2010.
 
-This source code only provides feature tracking. The whole executable SfM system can be found at http://www.zjucvg.net/ls-acts/ls-acts.html.
+This source code only provides the feature tracking module. The whole executable SfM system and more datasets can be found at http://www.zjucvg.net/ls-acts/ls-acts.html.
 
 ##1. License
 
 ENFT is released under a [GPLv3 license](http://choosealicense.com/licenses/gpl-3.0/). If you need a closed-source version of ENFT for commercial purposes, please contact [Guofeng Zhang](mailto:zhangguofeng@cad.zju.edu.cn).
 
-If you use this source code for your academic publication, please cite our TIP paper.
+If you use this source code for your academic publication, please cite our TIP paper:
 
+	@article{
+	  title={Efficient Non-Consecutive Feature Tracking for Robust Structure-from-Motion},
+	  author={Guofeng Zhang, Haomin Liu, Zilong Dong, Jiaya Jia, Tien-Tsin Wong, Hujun Bao},
+	  journal={IEEE Transactions on Image Processing},
+	  doi = {10.1109/TIP.2016.2607425},
+	  year={2016}
+	}
+	
 ##2. Dependencies
 
 * [GLUT](https://www.opengl.org/resources/libraries/glut/)
