@@ -1,7 +1,7 @@
 # ENFT
 
 **Current version**: 1.0
-ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a feature tracking method which can efficiently match feature point correspondences among one or multiple video sequences. Our framework consists of steps of solving the feature ‘dropout’ problem when indistinctive structures, noise or even large image distortion exist, and of rapidly recognizing and joining common features located in different subsequences or even in different videos. This source code provides an efficient GPU implementation.
+ENFT (**E**fficient **N**on-consecutive **F**eature **T**racking) is a feature tracking method which can efficiently match feature point correspondences among one or multiple video sequences. Our framework consists of steps of solving the feature ‘dropout’ problem when indistinctive structures, noise or even large image distortion exist, and of rapidly recognizing and joining common features located in different subsequences or even in different videos. This source code provides an efficient GPU implementation (written by OpenGL Shading with language).
 
 ###Related Publications:
 
@@ -35,7 +35,7 @@ If you use this source code for your academic publication, please cite our TIP p
 
 ##3. Installation & usage
 
-The project is built by VS2010. All the dependent libraries must be built and linked. We also provide the x64 libraries built by VS2010 in `lib/`.
+The project is built by VS2010. Since GPU implementation is written with GLSL, it is recoomended to use Geforece GTX 560 or above disaplay card. All the dependent libraries must be built and linked. We also provide the x64 libraries built by VS2010 in `lib/`.
 	
 The entry to the program is in `ENFT/ENFT.cpp`. Here is an example:
 
